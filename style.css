@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(bg.jpg) no-repeat;
+    background-size: cover;
+    color: white;
+    font-weight: bold;
+}
+
+.heading{
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 4px 2px rgba(60,41,41,0.6);  
+    left: 80px;
+    position: absolute;
+    top: 0;  
+
+}
+
+img{
+    margin-left: 165px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    
+}
+
+#form{
+    margin-top: 100px;
+    margin-left: 100px;
+    background-color: rgb(228, 79, 79);
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.75);
+}
+
+#container{
+    background-color: rgb(228, 79, 79);
+    border-radius: 10px;
+    box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.75);
+    width: 400px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+#container2{
+    background-color: rgb(228, 79, 79);
+    border-radius: 10px;
+    box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.75);
+    width: 400px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+#box{
+    margin-left: 200px;
+    margin-top: 100px;
+
+}
+
+::placeholder{
+    color: white;
+}
+
+input{
+    background-color: rgb(248, 7, 7);
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+button{
+    background-color:  rgb(172, 3, 3);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 100px;
+}
+
+button:hover{
+    background-color: rgb(255, 0, 0);
+}

@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(index-bg.jpg) no-repeat;
+    background-size: cover;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+#image-gallery{
+    width: 35rem;
+    margin-bottom: 60px;
+    margin-top: 90px;
+    left: 0px;
+    position: fixed;
+    margin-left: 10px;
+}
+
+#main-img{
+    width: 400px;
+    height: 700px;
+    padding: 5px;
+    border: 1px groove;
+    margin-bottom: 10px;
+    right: 0;
+    position: absolute;
+    opacity: 0.9;
+}
+
+.thumbnail{
+    width: 19%;
+    height: 100px;
+    margin-right: 2px;
+    cursor: pointer;
+}
+
+#thumbnail-container{
+    justify-content: center;
+}
+.thumbnail:hover{
+    opacity: 0.5;
+}
+
+.button{
+    text-decoration: none;
+    color: black;
+    bottom: 0;
+    position: fixed;
+    background-color: pink;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    opacity: 0.9;
+    margin-left: 300px;
+    font-weight: bold;
+}
+
+.button:hover{
+    box-shadow: 0px 0px 80px 10px rgba(0,0,0,0.75);
+    opacity: 1;
+}

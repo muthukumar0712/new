@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday surprise</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <img src="../Birthday/New folder/0.jpeg" alt="" id="main-img">
+    <div id="image-gallery">
+        <div id="thumbnail-container">
+            <!--save the images in the folder named new folder and give the image name as 1.jpg....and so on-->
+            <img class="thumbnail" src="../Birthday/New folder/1.jpg">
+            <img class="thumbnail" src="../Birthday/New folder/2.jpg">
+            <img class="thumbnail" src="../Birthday/New folder/3.jpg">
+            <img class="thumbnail" src="../Birthday/New folder/4.jpg">
+            <img class="thumbnail" src="../Birthday/New folder/5.jpg">
+            <img class="thumbnail" src="../Birthday/New folder/6.jpg">
+            <img class="thumbnail" src="../Birthday/New folder/7.jpg">
+            <img class="thumbnail" src="../Birthday/New folder/8.jpg">
+            <img class="thumbnail" src="../Birthday/New folder/9.jpg">
+            <img class="thumbnail" src="../Birthday/New folder/10.jpg">
+            <img class="thumbnail" src="../Birthday/New folder/11.jpg">
+            <img class="thumbnail" src="../Birthday/New folder/12.jpg">
+            <img class="thumbnail" src="../Birthday/New folder/13.jpg">
+            <img class="thumbnail" src="../Birthday/New folder/14.jpg">
+            <img class="thumbnail" src="../Birthday/New folder/15.jpg">
+            <img class="thumbnail" src="../Birthday/New folder/16.jpg">
+            <img class="thumbnail" src="../Birthday/New folder/17.jpg">
+            <img class="thumbnail" src="../Birthday/New folder/18.jpg">
+            <img class="thumbnail" src="../Birthday/New folder/19.jpg">
+            <img class="thumbnail" src="../Birthday/New folder/20.jpg">
+            <img class="thumbnail" src="../Birthday/New folder/21.jpg">
+            <img class="thumbnail" src="../Birthday/New folder/22.jpg">
+            <img class="thumbnail" src="../Birthday/New folder/23.jpg">
+            <img class="thumbnail" src="../Birthday/New folder/24.jpg">
+            <img class="thumbnail" src="../Birthday/New folder/25.jpg">
+        </div>
+    </div>
+    <a href="surprise.html" class="button">Click Here For Surprise</a>
+    <script>
+        var thumbnail = document.querySelectorAll(".thumbnail");
+        var mainImage = document.querySelector("#main-img");
+
+        for(var i=0; i<thumbnail.length;i++){
+            thumbnail[i].addEventListener("click",function(){
+                mainImage.src = this.src;
+            })
+        }
+    </script>
+</body>
+</html>
